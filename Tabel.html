@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Style untuk header */
+        .header {
+            display: flex;
+            align-items: center;
+            background-color: #96801f; /* Warna latar belakang header */
+            color: #fff; /* Warna teks */
+            padding: 20px; /* Ruang di sekitar elemen header */
+        }
+
+        /* Style untuk logo */
+        .logo {
+            max-width: 100px; /* Lebar maksimum logo */
+            border-radius: 50%; /* Membuat logo berbentuk bulat */
+        }
+
+        /* Style untuk judul website */
+        .title {
+            flex: 1; /* Membuat judul website mengambil sisa ruang yang tersedia */
+        }
+
+        /* Style untuk navigasi */
+        .nav {
+            text-align: right; /* Teks di sebelah kanan */
+        }
+    
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #f5f2c4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #96801f;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #d6b524bb;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(148, 123, 11, 0.774);
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(148, 123, 11, 0.774);
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #96801f;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: #96801f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo {
+            max-width: 100px;
+        }
+
+        footer {
+            background-color: #96801f; /* Warna latar belakang footer */
+            color: #fff; /* Warna teks footer */
+            padding: 10px; /* Ruang di sekitar elemen footer */
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header">
+        <!-- Logo -->
+        <img class="logo" src="fadel.jpg" alt="Logo Website Anda">
+        <!-- Judul Website -->
+        <h1 class="title">Halaman Tabel</h1>
+    </div>
+
+    <!-- Navigasi -->
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="Form.html">Form</a>
+        <a href="Tabel.html">Tabel</a>
+    </nav>
+
+    <h1>Daftar Mahasiswa</h1>
+    <table>
+        <tr>
+            <th>Nama</th>
+            <th>NIM</th>
+            <th>Program Studi</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Jenis Kelamin</th>
+            <th>Tanggal Lahir</th>
+            <th>Alamat</th>
+        </tr>
+        <tr>
+            <td>Fadel Malik</td>
+            <td>121140165</td>
+            <td>Teknik Informatika</td>
+            <td>fadel.121140165@student.itera.ac.id</td>
+            <td>Belalang23</td>
+            <td>Laki-laki</td>
+            <td>26-08-2003</td>
+            <td>Jl. Lapas Raya</td>
+        </tr>
+        <tr>    
+            <td>Naruto</td>
+            <td>121140123</td>
+            <td>Teknik Informatika</td>
+            <td>naruto.121140123@student.itera.ac.id</td>
+            <td>mieayam123</td>
+            <td>Laki-laki</td>
+            <td>16-05-2003</td>
+            <td>Jl. Konoha</td>
+        </tr>
+        <tr>
+            <td>Ronaldo</td>
+            <td>121140712</td>
+            <td>Teknik Informatika</td>
+            <td>ronaldo.121140712@student.itera.ac.id</td>
+            <td>realmadrid07</td>
+            <td>Laki-laki</td>
+            <td>05-02-2002</td>
+            <td>Jl. Spanyol</td>
+        <tr>
+            <td>Messi</td>
+            <td>121140167</td>
+            <td>Teknik Informatika</td>
+            <td>messi.121140167@student.itera.ac.id</td>
+            <td>fcbarcelona</td>
+            <td>Laki-laki</td>
+            <td>26-06-2001</td>
+            <td>Jl. Argentina</td>
+        </tr>   
+        <tr>
+            <td>Michael Jackson</td>
+            <td>121140190</td>
+            <td>Teknik Informatika</td>
+            <td>michael.121140190@student.itera.ac.id</td>
+            <td>ihiihi</td>
+            <td>Laki-laki</td>
+            <td>29-08-2002</td>
+            <td>Jl. Amerika</td>
+        </tr>
+        <tr>
+            <td>Chelsea Islan</td>
+            <td>121140103</td>
+            <td>Teknik Informatika</td>
+            <td>chelsea.121140103@student.itera.ac.id</td>
+            <td>indonesia123</td>
+            <td>Perempuan</td>
+            <td>02-07-2003</td>
+            <td>Jl. Indonesia</td>
+        </tr>
+    
+    </table>
+    <!-- Footer -->
+    <footer>
+        &copy; Fadel Malik 121140165 RB
+    </footer>
+</body>
+</html>
